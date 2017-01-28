@@ -9,12 +9,15 @@
   "author": "caleb.xiang",
   "license": "MIT",
   "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
     "eslint": "^3.14.1",
     "html-webpack-plugin": "^2.26.0",
     "webpack": "^2.2.0",

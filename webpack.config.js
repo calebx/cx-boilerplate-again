@@ -14,7 +14,7 @@ module.exports = {
   plugins: [
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({
-      title: "Boilerplate | CXiang"
+      template: path.resolve(__dirname, 'app/index.html')
     }),
   ],
   module: {
