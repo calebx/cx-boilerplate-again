@@ -1,5 +1,9 @@
 import React from 'react'
+import { Provider } from 'react-redux'
+import Page from 'components/page'
 
-module.exports = () => (
-  <h1>nice!</h1>
+module.exports = ({ store }) => (
+  <Provider store={store} >
+    <Page />
+  </Provider>
 )

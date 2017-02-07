@@ -27,5 +27,8 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'build'),
     port: 9000
+  },
+  resolve: {
+    modules: [path.resolve(__dirname, 'app'), 'node_modules']
   }
 }
